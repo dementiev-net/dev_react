@@ -1,0 +1,24 @@
+$font-stack: 0.75em sans-serif;
+$primary-color: #333;
+$background-color: #fff;
+
+html {
+  font: $font-stack;
+  color: $primary-color;
+  background-color: $background-color;
+  padding: 3px;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.data {
+  color: blue;
+}
